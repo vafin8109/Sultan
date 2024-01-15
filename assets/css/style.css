@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  background-color: #fafdf2;
+}
+
+/* header start */
+header {
+  background-color: #1a3129;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 26px;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #cbea7b;
+}
+/* header end */
+
+/* banner start */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner .ban h2 {
+  font-size: 48px;
+  margin-top: 200px;
+  color: #262626;
+}
+
+.banner .ban p {
+  font-size: 18px;
+  margin-bottom: 80px;
+  color: #333333;
+}
+
+.b_card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eef8d3;
+}
+
+.p_text {
+  padding: 40px;
+}
+
+.p_text p {
+  font-size: 18px;
+  color: #333333;
+}
+
+.img_text_b {
+  background-color: #f6fbe9;
+  border: 1px solid #eef8d3;
+  display: flex;
+  gap: 12px;
+  padding: 30px 40px;
+  align-items: center;
+}
+
+.img_text_b h5 {
+  font-size: 18px;
+  color: #1a3129;
+}
+
+.arrows_circles {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.arrow {
+  background-color: #f6fbe9;
+  border: 1px solid #eef8d3;
+  padding: 12px;
+}
+/* banner end */
+
+/* pricing start */
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pri {
+  display: flex;
+  flex-direction: column;
+  margin-top: 187px;
+  text-align: center;
+}
+
+.pri h2 {
+    color: #262626;
+    font-size: 48px;
+    margin-bottom: 10px;
+} 
+
+.pri p {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.buttons_pri {
+    border: 1px solid #eef8d3;
+    padding: 10px;
+}
+
+.buttons_pri button {
+    font-size: 18px;
+}
+
+.buttons_pri .active{
+    background-color: #234338;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+}
+
+.buttons_pri .pass {
+    border: none;
+    padding: 10px 24px;
+    background-color: #fafdf2;
+    color: #4c4c4c;
+}
+
+.otd {
+    margin-top: 14px;
+    color: #4c4c4d;
+    font-size: 18px;
+}
+/* pricing end */
